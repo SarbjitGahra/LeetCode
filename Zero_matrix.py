@@ -1,6 +1,7 @@
 def setZero(a,r,c):
 #make a list of size r and set it to zero
     rows=[0]*r
+#make a list of size r and set it to zero
     cols=[0]*c
     for i in range(r):
         for j in range(c):
