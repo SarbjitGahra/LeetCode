@@ -21,10 +21,7 @@ class stack:
       else:
           self.container[self.nStacks].append(val)
           self.size = self.size+1
-   # def print_stack(self):
-   #     for i in container:
-   #          for j in i:
-   #              print j
+  
   def print_stack(self):
        for i in self.container:
            for j in i:
